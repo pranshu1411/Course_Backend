@@ -39,7 +39,7 @@ function authenticateToken(req, res, next) {
     });
 }
 
-// Optional: export helper functions if needed elsewhere
+// export helper functions if needed elsewhere
 module.exports = {
     hashPassword,
     verifyPassword,
